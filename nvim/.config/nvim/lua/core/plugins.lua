@@ -15,6 +15,13 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'junegunn/fzf.vim'
   use 'ellisonleao/gruvbox.nvim'
+  use 'shaunsingh/nord.nvim'
+  use 'AlexvZyl/nordic.nvim'
+  use 'arturgoms/moonbow.nvim'
+  use 'ayu-theme/ayu-vim'
+  use 'agude/vim-eldar'
+
+
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
   use 'nvim-lualine/lualine.nvim'
@@ -34,7 +41,7 @@ return require('packer').startup(function(use)
 
 
 
-  use "github/copilot.vim"
+  -- use "github/copilot.vim"
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
@@ -45,15 +52,10 @@ return require('packer').startup(function(use)
     'nvim-telescope/telescope.nvim',
     tag = '0.1.0',
     requires = { {'nvim-lua/plenary.nvim' } } 
-  }  
+  }
 
 
 
-  -- My plugins here
-  -- use 'foo1/bar1.nvim'
-  -- use 'foo2/bar2.nvim'
-
-  -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
     require('packer').sync()
