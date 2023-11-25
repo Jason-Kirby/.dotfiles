@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["ayu-vim"] = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/ayu-vim",
+    url = "https://github.com/ayu-theme/ayu-vim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -129,6 +134,21 @@ _G.packer_plugins = {
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["moonbow.nvim"] = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/moonbow.nvim",
+    url = "https://github.com/arturgoms/moonbow.nvim"
+  },
+  ["nord.nvim"] = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/nord.nvim",
+    url = "https://github.com/shaunsingh/nord.nvim"
+  },
+  ["nordic.nvim"] = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/nordic.nvim",
+    url = "https://github.com/AlexvZyl/nordic.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -168,6 +188,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-eldar"] = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/vim-eldar",
+    url = "https://github.com/agude/vim-eldar"
   },
   ["vim-nightfly-colors"] = {
     loaded = true,
