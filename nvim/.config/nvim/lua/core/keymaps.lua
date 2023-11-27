@@ -1,6 +1,3 @@
-
-
-
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
  
@@ -16,11 +13,15 @@ vim.opt.expandtab=true
 vim.opt.smartindent=true
 vim.opt.autoread=true
 
+
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('n', '<leader>q', ':q<CR>')
+vim.keymap.set('n', '<leader>Q', ':q!<CR>')
 vim.keymap.set('n', '<leader>w', ':w<CR>')
 vim.keymap.set('n', '<leader>W', ':wq<CR>')
 vim.keymap.set('i', '<C-h>', '<Left>')
 vim.keymap.set('i', '<C-l>', '<Right>')
 vim.keymap.set('i', '<C-j>', '<Down>')
 vim.keymap.set('i', '<C-k>', '<Up>')
+-- set in telescope.lua  vim.keymap.set('n', '<leader>pf', builtin.find_files, {})

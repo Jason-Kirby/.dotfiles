@@ -20,16 +20,18 @@ return require('packer').startup(function(use)
   use 'arturgoms/moonbow.nvim'
   use 'ayu-theme/ayu-vim'
   use 'agude/vim-eldar'
+  use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+  use ('nvim-treesitter/playground')
 
-
-  use 'nvim-tree/nvim-tree.lua'
+  use ('theprimeagen/harpoon')
+  
+--  use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
   use 'nvim-lualine/lualine.nvim'
 
   use 'bluz71/vim-nightfly-colors'
   use 'vim-test/vim-test'
   use 'lewis6991/gitsigns.nvim'
-  use 'nvim-treesitter/nvim-treesitter'
 
 
   use 'hrsh7th/nvim-cmp'
@@ -38,7 +40,7 @@ return require('packer').startup(function(use)
 
   use 'saadparwaiz1/cmp_luasnip'
   use "rafamadriz/friendly-snippets"
-
+  
 
 
   -- use "github/copilot.vim"
@@ -50,8 +52,8 @@ return require('packer').startup(function(use)
 
   use {
     'nvim-telescope/telescope.nvim',
-    tag = '0.1.0',
-    requires = { {'nvim-lua/plenary.nvim' } } 
+    tag = '0.1.4',
+    requires = { {'nvim-lua/plenary.nvim' } }
   }
 
 
