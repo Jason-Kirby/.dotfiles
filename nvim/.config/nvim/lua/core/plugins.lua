@@ -29,15 +29,9 @@ return require('packer').startup(function(use)
   use 'bluz71/vim-nightfly-colors'
   use 'vim-test/vim-test'
   use 'lewis6991/gitsigns.nvim'
-  use 'nvim-treesitter/nvim-treesitter'
-
-
-  use 'hrsh7th/nvim-cmp'
-  use 'hrsh7th/cmp-nvim-lsp'
-  use 'L3MON4D3/LuaSnip'
-
-  use 'saadparwaiz1/cmp_luasnip'
-  use "rafamadriz/friendly-snippets"
+  use {
+    'nvim-treesitter/nvim-treesitter', tag = '0.1.5', requires = {{'nvim-lua/plenary.nvim'}}
+  }
 
 
 
@@ -51,7 +45,7 @@ return require('packer').startup(function(use)
   use {
     'nvim-telescope/telescope.nvim',
     tag = '0.1.5',
-    requires = { {'nvim-lua/plenary.nvim' } } 
+    requires = { {'nvim-lua/plenary.nvim' } }
   }
 
 
