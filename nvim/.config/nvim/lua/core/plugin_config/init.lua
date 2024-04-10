@@ -9,6 +9,7 @@ require("core.plugin_config.moonbow")
 
 require("core.plugin_config.ayu_dark")
 
+require("core.plugin_config.harpoon")
 
 require("core.plugin_config.treesitter")
 require("core.plugin_config.telescope")

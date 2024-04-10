@@ -74,10 +74,25 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
   ["ayu-vim"] = {
     loaded = true,
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/ayu-vim",
     url = "https://github.com/ayu-theme/ayu-vim"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["fzf.vim"] = {
     loaded = true,
@@ -93,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
+  harpoon = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/theprimeagen/harpoon"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -124,6 +144,11 @@ _G.packer_plugins = {
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/nordic.nvim",
     url = "https://github.com/AlexvZyl/nordic.nvim"
   },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
@@ -149,6 +174,11 @@ _G.packer_plugins = {
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  playground = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/playground",
+    url = "https://github.com/nvim-treesitter/playground"
+  },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/plenary.nvim",
@@ -158,6 +188,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jude/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-be-good"] = {
+    loaded = true,
+    path = "/home/jude/.local/share/nvim/site/pack/packer/start/vim-be-good",
+    url = "https://github.com/theprimeagen/vim-be-good"
   },
   ["vim-eldar"] = {
     loaded = true,
